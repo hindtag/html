@@ -1,1 +1,42 @@
+two main areas
 
+    1. head element or meta data:(Not seen)
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    2. body element (Seen)
+
+    3. inline element
+        <em>
+        <strong>
+        <abbr> - tooltip
+    4. block element
+        <p>
+    5. entities
+        &nbsp; -> character space
+        &lt; -> less than symbols
+        &copy; -> copyright
+        &gt; - > greater than symbols
+
+
+
+resources:
+https://developer.mozilla.org/en-US/docs/Web/HTML
+https://favicon.io/favicon-generator/ -> favicon generator
+
+tools
+Chrome -> Browser
+Dark new tab -> Chrome extension
+Visual studio code -> Code editor
+    Prettier -> Code formatter
+    vscode-icons -> Icon for visual representations
+    github theme -> Theme environment
+    live server -> browser
+w3c - checking the webpage
+
+
+continue on "45:00"
