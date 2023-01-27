@@ -50,6 +50,10 @@ two main areas
             -> height (second in the pixel)
             -> loading = lazy for below/above the fold
                     -:> to check open chrome dev tools, network, disable chache, images check the waterfall.
+            -> figure = allows to add caption
+                    -:> figcaption = caption
+                    -> code element = helps display code using <code>/<code>
+
 
 
 
@@ -57,6 +61,7 @@ two main areas
 resources:
 https://developer.mozilla.org/en-US/docs/Web/HTML
 https://favicon.io/favicon-generator/ -> favicon generator
+https://loremipsum.io/ -> temporary image generator 
 
 tools
 Chrome -> Browser
@@ -69,4 +74,4 @@ Visual studio code -> Code editor
 w3c - checking the webpage
 
 
-continue on "1:30:00"
+continue on "1:57:00"
