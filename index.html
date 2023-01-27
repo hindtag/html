@@ -11,10 +11,9 @@
     <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
+    <header>
     <h1>My Goals for the year</h1>
-    <hr>
-
-    <nav>
+    <nav aria-label="primary-nav">
         <ul>
             <li>
                 <a href="#html">Learning HTML</a>
@@ -24,69 +23,140 @@
             </li>
         </ul>
     </nav>
+    </header>
     <hr>
-    <section id="html">
-        <h2>I am ready to relearn HTML</h2>
-        <p>This is my first want to be portfolio</p>
-        <img src="/img/html_logo_300x300.png" alt="HTML5 logo" title="This is a HTML5 logo" width="300" height="300">
-        <figure>
-            <figcaption>An Example of HTML5 code</figcaption>
-            <p>
-                <code>
-                    &lt;h1&gt;Hello World!&lt;&gt;
-                </code>
-            </p>
-        </figure>
-        <h3>My Daily Schedule</h3>
-        <p>Let me tell you how:</p> 
-        <ol>
-            <li>... I learn more about web dev.</li>
-            <li>... I plan our my schedule.</li>
-            <li>... I use resources from <abbr title="Mozilla Developer Network">
-                <a href="https://developer.mozilla.org">MDN</a></abbr>.</li>
-        </ol>
-    </section>
-    <hr>
-    <section id="vacation">
-        <h2>I Am Also Planning a Vacation</h2>
-        <p>I've been working hard and <em>really need a getaway.</em></p>
-        <p>I live in Albay and I want to visit a beach.</p>
-        <p>I've heard good things going here</p>
-        <h3>Places I'd like to Visit</h3>
-        <ul>
-        <p><li>I've hear good things about tikling beach</li></p>
+    <main>
+        <article id="html">
+            <h2>I am ready to relearn HTML</h2>
+            <p>This is my first want to be portfolio</p>
+            <section>
+                <h3>HTML5</h3>
+            <img src="/img/html_logo_300x300.png" alt="HTML5 logo" title="This is a HTML5 logo" width="300" height="300">
             <figure>
-                <img src="img/caribbean.jpg" alt="carribean beach" title="This is an aerial picture of carribean beach" width="400" height="225" loading="lazy">
-                <figcaption>Tikling beach getaway</figcaption>
+                <figcaption>An Example of HTML5 code</figcaption>
+                <p>
+                    <code>
+                        &lt;h1&gt;Hello World!&lt;&gt;
+                    </code>
+                </p>
             </figure>
-        <p>
-            <li>I've heard good things going here:</p>
-                <address>
-                    Margareta ville Island Reserve Riviera cancun <br>
-                    Bahia Petempich Puerto Morelos, Mexico <br>
-                    Colonia Morelos, Mexico 77580
-                </address>
+            </section>
+            <section>
+            <h3>My Daily Schedule</h3>
+            <p>Let me tell you how:</p> 
+            <ol>
+                <li>... I learn more about web dev.</li>
+                <li>... I plan our my schedule.</li>
+                <li>... I use resources from <abbr title="Mozilla Developer Network">
+                    <a href="https://developer.mozilla.org">MDN</a></abbr>.</li>
+            </ol>
+            <aside>
+                <details>
+                    <summary>
+                        Guess the <mark> number of hours</mark> I code per day
+                    </summary>
+                    <p>I start at <time datetime="08:00"> 8am</time> and I write code <time datetime="PT3H"> 3 hours</time> every day.</p>
+                </details>
+            </aside>
+            <br>
+            <table>
+                <caption>My daily Schedule</caption>
+                <thead >
+                <tr>
+                    <th>&nbsp;</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Activity</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">Morning</th>
+                    <td>
+                        <time datetime="08:00">8am</time>-<time datetime="11:00">11:am</time>
+                    </td>
+                    <td>Write Code</td>
+                </tr>
+                <tr>
+                    <th scope="row">Break</th>
+                    <td>
+                        <time datetime="11:00">11:am</time>-<time datetime="11:00">12:pm</time>
+                    </td>
+                    <td>Eat lunch</td>
+                </tr>
+                <tr>
+                    <th scope="row">Afternoon</th>
+                    <td>
+                        <time datetime="12:00">12:pm</time>-<time datetime="05:00">05:pm</time>
+                    </td>
+                    <td>Study for other courses</td>
+                </tr>
+                <tr>
+                    <th scope="row">Evening</th>
+                    <td rowspan="2">All other time</td>
+                    <td>Free time</td>
+                </tr>
+                <tr>
+                    <th scope="row">Night</th>
+                    <td>Sleep</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">And that's what I do everyday, 5 days a week, just eat, sleep, code ..and recharge! </td>
+                </tr>
+            </tfoot>
+            </table>
+        </section>
+        </article>
+        <hr>
+        <section id="vacation">
+            <h2>I Am Also Planning a Vacation</h2>
+            <p>I've been working hard and <em>really need a getaway.</em></p>
+            <p>I live in Albay and I want to visit a beach.</p>
+            <p>I've heard good things going here</p>
+            <section>
+            <h3>Places I'd like to Visit</h3>
+            <ul>
+                <li><p>I've hear good things about tikling beach</p> 
                 <figure>
-                    <img src="/img/vacation.jpg" alt="Cancun vacation" title="Its a cancun beach iamage capture last summer" width="400" height="267" loading="lazy">
-                    <figcaption>A Caribbean beach getaway</figcaption>
+                    <img src="img/caribbean.jpg" alt="carribean beach" title="This is an aerial picture of carribean beach" width="400" height="225" loading="lazy">
+                    <figcaption>Tikling beach getaway</figcaption>
                 </figure>
-            </li>
-        </ul>
-        <h3>Places I want to avoid</h3>
-        <dl>
-            <dt>North Pole</dt>
-            <dd>I hear this is  <strong>cold!</strong></dd>
-            <dt>South Pole</dt>
-            <dd>This is also cold</dd>
-            <dt>Mountain tops</dt>
-            <dd>These are also cold.</dd>
-        </dl>
-    </section>
+                </li>
+                <li><p>I've heard good things going here:</p>
+                    <address>
+                        Margareta ville Island Reserve Riviera cancun <br>
+                        Bahia Petempich Puerto Morelos, Mexico <br>
+                        Colonia Morelos, Mexico 77580
+                    </address>
+                    <figure>
+                        <img src="/img/vacation.jpg" alt="Cancun vacation" title="Its a cancun beach iamage capture last summer" width="400" height="267" loading="lazy">
+                        <figcaption>A Caribbean beach getaway</figcaption>
+                    </figure>
+                </li>
+            </ul>
+            </section>
+            <section>
+                <div></div>
+            <h3>Places I want to avoid</h3>
+            <dl>
+                <dt>North Pole</dt>
+                <dd>I hear this is  <strong>cold!</strong></dd>
+                <dt>South Pole</dt>
+                <dd>This is also cold</dd>
+                <dt>Mountain tops</dt>
+                <dd>These are also cold.</dd>
+            </dl>
+            </section>
+        </section>
+    </main>
     <!--Footer-->
     <hr>
-    &lt;&lt;&lt; &copy; <a href="about.html">sirTag</a> &gt;&gt;&gt;
-    <p>
+    <footer>
+        <p>
+        &lt;&lt;&lt; &copy; <a href="about.html">sirTag</a> &gt;&gt;&gt;
         <a href="#">Back to top</a>
-    </p>
+        </p>
+    </footer>
 </body>
 </html>
