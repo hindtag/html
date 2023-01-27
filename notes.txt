@@ -1,6 +1,6 @@
 two main areas
 
-    1. head element or meta data:(Not seen)
+    1. Head element or meta data:(Not seen)
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,28 +8,48 @@ two main areas
         <title>Document</title>
     </head>
 
-    2. body element (Seen)
+    2. Body element (Seen)
+        Everything that is inside the body
 
-    3. inline element
+    3. Inline element
         <em>
         <strong>
         <abbr> - tooltip
-    4. block element
+    4. Block element
         <p>
-    5. entities
+    5. Entities
         &nbsp; -> character space
         &lt; -> less than symbols
         &copy; -> copyright
         &gt; - > greater than symbols
     6. HTML comment
         <!--
-    7. list
+    7. List
         ordered list -> <ol> = numbers
              list item -> <li>
         unordered list -> <ul> = bullet points
         description title -> <dt> = indention
             description list-> <dl>
+    8. Links
+        Absolute reference -> outside the server
+        Relative reference -> other pages inside server
+        Internal reference -> different areas of the page
+        // to use this, you need to create a semantic sections using id attribute
+        Download link
+            ex: <a href="imagefile.png" download="">download text</a>
+        Email link -> for email
+        Dial link -> for phone
 
+    9. Sections -> Using <sections for semantic linking
+    10. Naming conventions -> About using poor text on the hypertext links
+    11. Use abbr what is on the next link or abbreviations
+    12. Adding images -> very important to organize images in a folder
+            -> alt
+            -> title
+            -> width (first in the pixel)
+            -> height (second in the pixel)
+            -> loading = lazy for below/above the fold
+                    -:> to check open chrome dev tools, network, disable chache, images check the waterfall.
 
 
 
@@ -49,4 +69,4 @@ Visual studio code -> Code editor
 w3c - checking the webpage
 
 
-continue on "45:00"
+continue on "1:30:00"
