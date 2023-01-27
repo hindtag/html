@@ -9,6 +9,8 @@ two main areas
     </head>
 
     2. Body element (Seen)
+        <h1>
+        <nav aria-label="primary-nav">
         Everything that is inside the body
 
     3. Inline element
@@ -39,11 +41,9 @@ two main areas
             ex: <a href="imagefile.png" download="">download text</a>
         Email link -> for email
         Dial link -> for phone
-
-    9. Sections -> Using <sections for semantic linking
-    10. Naming conventions -> About using poor text on the hypertext links
-    11. Use abbr what is on the next link or abbreviations
-    12. Adding images -> very important to organize images in a folder
+    9. Naming conventions -> About using poor text on the hypertext links
+    10. Use abbr what is on the next link or abbreviations
+    11. Adding images -> very important to organize images in a folder
             -> alt
             -> title
             -> width (first in the pixel)
@@ -53,25 +53,76 @@ two main areas
             -> figure = allows to add caption
                     -:> figcaption = caption
                     -> code element = helps display code using <code>/<code>
+    12. Semantics tags = document organization/layout
+            -:> Heirearchy
+            -:> Sections -> Using <sections for semantic linking for id
+                -:> You can use article > section
+            -> aside
+                details
+                    summary = toggle view questions
+                        p = toggle view answers
+                    <mark></mark> = highlighter
+    13. Tables = table instantiate (Write table row and table date first before the headers)
+            Caption -> <caption>
+            Table head -> <thead>
+                Table header -> <th>
+            Table body -> <body>    
+                Table row -> <tr>
+                Table data -> <td>
+                    <td colspan="2"> = 2 column that takes merge into 1.
+                    <td rowspan="2"> = 2 row that merge into 1
+            Table Footer -> <tfoot>
 
 
 
+Note:
+    Big 3 areas
+        #Header element
+            1. h1 for page heading
+            2. nav 
+                Label it if possible
+        #Main element (Use semantics for better SEO)
+            All goes here
+            Use section and article instead of <div>
+            Avoid <span> please!
+            Avoid tables in layout
+        #Footer    
 
+Resources:
+HTML tutorial    
+    https://developer.mozilla.org/en-US/docs/Web/HTML
+    https://www.w3schools.com/html/html_intro.asp
+    https://www.internetingishard.com/html-and-css/css-box-model/
 
-resources:
-https://developer.mozilla.org/en-US/docs/Web/HTML
-https://favicon.io/favicon-generator/ -> favicon generator
-https://loremipsum.io/ -> temporary image generator 
+Favicon generator:
+    https://favicon.io/favicon-generator
 
-tools
-Chrome -> Browser
-Dark new tab -> Chrome extension
-Visual studio code -> Code editor
+Temporary image generator
+    https://loremipsum.io
+
+Downloadable images:
+    unsplash
+    pixels
+
+Image compressor
+    tinypng
+
+Image resizer:
+    Irfanview
+    Riot  
+
+Tools
+Browser -> Chrome
+Chrome extension:
+    Dark new tab -> making the tab dark
+    Html5 outliner
+Code editor -> Visual studio code
+VSCODE extension:
     Prettier -> Code formatter
     vscode-icons -> Icon for visual representations
     github theme -> Theme environment
-    live server -> browser
-w3c - checking the webpage
+    live server -> browser output
+w3c - checking the webpage/validator
 
 
-continue on "1:57:00"
+continue on "2:40:00"
