@@ -21,6 +21,16 @@ two main areas
         &lt; -> less than symbols
         &copy; -> copyright
         &gt; - > greater than symbols
+    6. HTML comment
+        <!--
+    7. list
+        ordered list -> <ol> = numbers
+             list item -> <li>
+        unordered list -> <ul> = bullet points
+        description title -> <dt> = indention
+            description list-> <dl>
+
+
 
 
 
