@@ -122,7 +122,9 @@ VSCODE extension:
     vscode-icons -> Icon for visual representations
     github theme -> Theme environment
     live server -> browser output
-w3c - checking the webpage/validator
+Checking the webpage/validator
+    w3c
+Form validator
+    https://httpbin.org/get
 
-
-continue on "2:40:00"
+continue on "3:04:00"
