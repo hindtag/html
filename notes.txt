@@ -73,6 +73,14 @@ two main areas
                     <td rowspan="2"> = 2 row that merge into 1
             Table Footer -> <tfoot>
 
+    14. Forms = input field (better to organize if big using fieldset and legend)
+            text label -> <label for="firstName">First Name:</label>
+            text box -> <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required autofocus>
+
+            drop down -> <select name="coffees" id="coffee" multiple size="5">
+                    <optgroup label="Coffees">
+                        <option value="regularCoffee">Regular Coffee</option>
+
 
 
 Note:
@@ -86,7 +94,10 @@ Note:
             Use section and article instead of <div>
             Avoid <span> please!
             Avoid tables in layout
-        #Footer    
+        #Footer
+
+
+    Dont ever send using a get request    
 
 Resources:
 HTML tutorial    
@@ -127,4 +138,4 @@ Checking the webpage/validator
 Form validator
     https://httpbin.org/get
 
-continue on "3:04:00"
+continue on "3:25:00"
