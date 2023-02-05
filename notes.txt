@@ -96,9 +96,6 @@ Note:
             Avoid tables in layout
         #Footer
 
-
-    Dont ever send using a get request    
-
 Resources:
 HTML tutorial    
     https://developer.mozilla.org/en-US/docs/Web/HTML
